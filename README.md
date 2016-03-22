@@ -9,3 +9,4 @@
  * Use extensions when conforming to protocols
  * Use private extensions for private methods
  * Use property hooks to configure outlets
+ * Avoid structs that use closure that capture self.
