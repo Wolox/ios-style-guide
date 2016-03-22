@@ -1,6 +1,6 @@
 ## Use lazy actions
 
-### Reasoning
+### Rationale
 
 TODO
 

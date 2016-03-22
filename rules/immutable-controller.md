@@ -1,6 +1,6 @@
 ## Immutable controller
 
-## Reasoning
+## Rationale
 
 TODO
 

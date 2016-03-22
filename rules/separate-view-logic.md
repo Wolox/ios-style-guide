@@ -1,6 +1,6 @@
 ## Extract view logic from controller
 
-### Reasoning
+### Rationale
 
 TODO
 
