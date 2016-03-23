@@ -10,3 +10,4 @@
  * Use private extensions for private methods
  * Use property hooks to configure outlets
  * Avoid structs that use closure that capture self.
+ * Dependencies should always be protocols.
