@@ -2,7 +2,7 @@
 
 ### Description
 
-Instead of having all the outlets and styling logic for the view in its View Controller, we extract all this logic to a different ```swift UIView``` subclass. This makes controllers smaller and is a much better way of dividing responsibilites.
+Instead of having all the outlets and styling logic for the view in its View Controller, we extract all this logic to a different ```UIView``` subclass. This makes controllers smaller and is a much better way of dividing responsibilites.
 
 
 ### Rationale
