@@ -2,7 +2,7 @@
 
 ### Rationale
 
-A very common problem as applications grow over time is that controllers often end up being quite large and handling a lot of responsabilities. One approach we take at Wolox to avoid this is using the MVVM architecture, thus moving most of the presentation logic out of the View Controller. However, when the view itself is complex, the controller ends up having outlet references to many interface elements and then having to bind them and update them thourghout its logic. Therefore, we prefer to have a UIView subclass that has all these references and handles the view logic, together with the styling of the elements. The View Controller still has to pass the elements that it gets from its View Model, but as it only has a reference to the view, it saves it from having to style and manage all these interface elements.
+A very common problem as applications grow over time is that controllers often end up being quite large and handling a lot of responsabilities. One approach we take at Wolox to avoid this is using the MVVM architecture, thus moving most of the presentation logic out of the View Controller. However, when the view itself is complex, the controller ends up having outlet references to many interface elements and then having to bind them and update them throughout its logic. Therefore, we prefer to have a UIView subclass that has all these references and handles the view logic, together with the styling of the elements. The View Controller still has to pass the elements that it gets from its View Model, but as it only has a reference to the view, it saves it from having to style and manage all these interface elements.
 
 ### Example
 
