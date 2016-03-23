@@ -10,7 +10,7 @@ By avoiding storyboards and [separating view logic from the view controller](./r
 If the view controller is well designed, meaning that it has a single responsibility, all business logic is extracted in services and the presentation logic is extracted in view models. Then the only dependency should be its view model.
 
 By making the controller immutable we avoid having complex logic to keep
-the internal state up-to-date. The view controller should only bind the properties of the view model with the view. Changes in the view model should be exposed using [Signal](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoa/Swift/Signal.swift), [SignalProducer](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoa/Swift/SignalProducer.swift) or any of observable [properties](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoa/Swift/Property.swift) from the [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) library.
+the internal state up-to-date. The view controller should only bind the properties of the view model with the view. Changes in the view model should be exposed using [Signal](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoa/Swift/Signal.swift), [SignalProducer](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoa/Swift/SignalProducer.swift) or any of the observable [properties](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoa/Swift/Property.swift) from the [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) library.
 
 The controller's responsibility gets reduced to coordinate the interaction of the view model with the view and handle events from the Cocoa framework.
 
