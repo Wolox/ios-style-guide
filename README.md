@@ -8,6 +8,6 @@
  * Extract presentation logic into view models
  * Use extensions when conforming to protocols
  * Use private extensions for private methods
- * Use property hooks to configure outlets
+ * [Use property hooks to configure outlets](./rules/property-hooks-for-outlets.md)
  * Avoid structs that use closure that capture self.
  * Dependencies should always be protocols.
