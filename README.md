@@ -11,3 +11,4 @@
  * [Use property hooks to configure outlets](./rules/property-hooks-for-outlets.md)
  * Avoid structs that use closure that capture self.
  * Dependencies should always be protocols.
+ * [Table view cell identifiers should be inferred from the class name.](./rules/table-view-cell-identifier.md)
