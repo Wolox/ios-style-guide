@@ -20,10 +20,10 @@ extension UITableViewCell: IdentifiableCell {
 }
 
 extension UITableView {
-
-  func registerCell(cell: IdentifiableCell) {
-    registerNib(UINib(nibName: cell.cellIdentifier, bundle: nil), forCellReuseIdentifier: cell.cellIdentifier)
+    
+  func registerCell(cellType: IdentifiableCell.Type) {
+    registerNib(UINib(nibName: cellType.cellIdentifier, bundle: nil), forCellReuseIdentifier: cellType.cellIdentifier)
   }
-
+    
 }
 ```
