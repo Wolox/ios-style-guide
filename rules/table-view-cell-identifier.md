@@ -9,15 +9,13 @@ TODO
 ```swift
 protocol IdentifiableCell {
     
-    static var cellIdentifier: String { get }
+  static var cellIdentifier: String { get }
     
 }
 
 extension UITableViewCell: IdentifiableCell {
     
-    static var cellIdentifier: String {
-      return String(self).componentsSeparatedByString(".").first!
-    }
+  static var cellIdentifier: String { return String(self) }
     
 }
 
