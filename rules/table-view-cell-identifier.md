@@ -8,21 +8,17 @@ TODO
 
 ```swift
 protocol IdentifiableCell {
-
-  var cellIdentifier: String { get }
-
+    
+    static var cellIdentifier: String { get }
+    
 }
 
-extension IdentifiableCell where Self: UITableViewCell {
-
-  var cellIdentifier: String {
-    return String(self.dynamicType)
-  }
-
-}
-
-final class MyCustomCell: UITableViewCell, IdentifiableCell {
-
+extension UITableViewCell: IdentifiableCell {
+    
+    static var cellIdentifier: String {
+      return String(self).componentsSeparatedByString(".").first!
+    }
+    
 }
 
 extension UITableView {
