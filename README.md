@@ -12,3 +12,4 @@
  * [Avoid structs that use closure that capture self](./rules/avoid-struct-closure-self.md)
  * Dependencies should always be protocols.
  * [Table view cell identifiers should be inferred from the class name.](./rules/table-view-cell-identifier.md)
+ * Public properties should appear before private ones.
