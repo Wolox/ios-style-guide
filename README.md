@@ -1,6 +1,6 @@
 # Wolox iOS style guide
 
-  We follow [GitHub's Swift style guide](https://github.com/github/swift-style-guide) and we enforce it using [SwiftLint](https://github.com/realm/SwiftLint) and [Linterbot](https://github.com/guidomb/linterbot).
+  We follow [GitHub's Swift style guide](https://github.com/github/swift-style-guide) and we enforce it using [SwiftLint](https://github.com/realm/SwiftLint) and [Linterbot](https://github.com/guidomb/linterbot). We also follow [Apple's API design guidelines](https://swift.org/documentation/api-design-guidelines/).
 
  * [Extract view logic from controller](./rules/separate-view-logic.md)
  * [Immutable controllers](./rules/immutable-controller.md)
