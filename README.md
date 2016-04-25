@@ -13,3 +13,4 @@
  * Dependencies should always be protocols.
  * [Table view cell identifiers should be inferred from the class name.](./rules/table-view-cell-identifier.md)
  * Public properties should appear before private ones.
+ * [Avoid using frame and bounds properties to add child views.](./rules/avoid-frame-bounds-properties.md)
