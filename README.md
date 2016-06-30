@@ -6,7 +6,7 @@
  * [Immutable controllers](./rules/immutable-controller.md)
  * [Use lazy actions](./rules/use-lazy-actions.md)
  * Extract presentation logic into view models
- * Use extensions when conforming to protocols
+ * [Use extensions when conforming to protocols](./rules/use-extensions-when-conforming-to-protocols.md)
  * Use private extensions for private methods
  * [Use property hooks to configure outlets](./rules/property-hooks-for-outlets.md)
  * [Avoid structs that use closure that capture self](./rules/avoid-struct-closure-self.md)
